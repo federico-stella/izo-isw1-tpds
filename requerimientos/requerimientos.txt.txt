@@ -1,0 +1,16 @@
+FUNCIONALES
+
+- El sistema debe registrar el paso de cada vehículo
+- El sistema debe tomar acciones de acuerdo a la velocidad registrada
+- El sistema debe enviar los datos a una API
+- El sistema debe enviar un correo con los datos
+- El sistema debe los datos recibidos a una impresora
+
+NO FUNCIONALES
+
+- El sistema debe tener funcionamiento 24/7
+
+DE DOMINIO
+
+- Cada cámara tiene un id, una descripción, coordenadas x e y de su ubicación, 
+dirección IP y modelo de la cámara

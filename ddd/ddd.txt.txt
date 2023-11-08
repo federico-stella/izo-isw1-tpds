@@ -1,0 +1,3 @@
+camara = idCamara + descripcion + coordenadas + ip + modelo
+
+datosVehiculo = fecha + hora + patente + velocidad

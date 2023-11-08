@@ -1,0 +1,25 @@
+Caso de uso: Control de velocidad vehicular
+
+Actores: Cámara de video control (primario)
+
+Pre-condiciones:----------------
+
+Camino básico:
+
+1- El sistema registra los datoVehículo enviados por la cámara.
+2- El sistema detecta una velocidad menor a 70 km/h.
+
+ 
+Camino alternativo:
+
+	2.a.1 La cámara mide una velocidad superior a 70 y menor a 100 km/h.
+	2.a.2 El sistema envía datoVehiculo  a una API encargada de registrarlos en una DB.
+	2.a.3 El sistema envía un correo a la cuenta “avisos@ciudad”.
+	2.b.1 La cámara mide una velocidad superior a 100 km/h.
+	2.b.2 El sistema envía datoVehiculo  a una API encargada de registrarlos en una DB.
+	2.b.3 envía un correo a la cuenta “alertas@ciudad”.
+	2.b.4 el sistema envía, 3 veces, los datos recibidos por la cámara a una 
+	impresora para que sean impresos.
+
+Escenario de éxito: El sistema registró correctamente los datos obtenidos por la 
+		    medición de la cámara.

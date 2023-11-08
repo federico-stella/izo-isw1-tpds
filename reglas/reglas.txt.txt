@@ -1,0 +1,10 @@
+DE HECHO
+
+- Se deben imprimir 3 copias de los datos si supera 100 km/h
+- Los límites de velocidades fijados son 70 y 100 km/h
+- Los correos se envían a una dirección institucional "avisos@"
+- Los datos se envían a una API que se encarga de guardarlos en una DB
+
+ACCIÓN DISPARADORA
+
+- Se reciben los datos de cada vehículo que pasa por la cámara 
